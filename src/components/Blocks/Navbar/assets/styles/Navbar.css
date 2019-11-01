@@ -1,0 +1,223 @@
+.navbar {
+	height: 60px;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: #fff;
+	padding-top: 0;
+	padding-bottom: 0;
+	box-shadow: 0 0 0 1px #fff, 0 2px 17px 2px rgb(8, 35, 171, 0.1);
+}
+.navbar.active {
+	background-color: #3454f5;
+}
+.navbar .form-inline .form-control {
+	background: #f4f7fe;
+	border: 1px solid #dee2e6;
+	border-radius: 3px;
+	color: #24273c;
+	padding-left: 20px;
+	padding-right: 0;
+	margin-right: -6px;
+	width: 200px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	border-right: 0;
+}
+
+.navbar .form-inline .btn {
+	border-radius: 0;
+	padding: 5px 15px 6px 15px;
+	border-color: transparent;
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.navbar .form-inline .form-control::-webkit-input-placeholder {
+	color: #b7c4ce;
+}
+.search-element {
+	padding-right: 15px !important;
+	padding-top: 5px;
+}
+.navbar-nav .input-icon-addon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 8px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	min-width: 2.5rem;
+	pointer-events: none;
+	color: #fff;
+}
+.form-control::-webkit-input-placeholder {
+	color: #000;
+}
+.navbar .nav-link {
+	color: #2f3245;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.navbar .nav-link.beep {
+	position: relative;
+}
+.navbar .nav-link.beep:after {
+	content: "";
+	position: absolute;
+	top: 10px;
+	right: 12px;
+	width: 7px;
+	height: 7px;
+	background-color: #fe7100;
+	border-radius: 50%;
+}
+.navbar .nav-link.nav-link-lg {
+}
+.nav-link {
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+.navbar .nav-link.nav-link-lg div {
+	margin-top: 3px;
+}
+.navbar .nav-link.nav-link-lg i {
+	font-size: 17px;
+	margin-top: 6px;
+}
+.navbar .sub-item {
+	background-color: #fff;
+	border-top: 0;
+	padding: 10px 0;
+	box-shadow: 0px 22px 68px -9px rgba(0, 0, 0, 0.15);
+	width: 100%;
+	font-size: 14px;
+	font-weight: 400;
+	z-index: 9999;
+	color: #111;
+	top: 4px;
+}
+.dropdown-list .dropdown-header{
+  color: #000 !important;
+  font-weight: 600;
+}
+.navbar-nav .dropdown.show .dropdown-item a{
+  text-decoration: none;
+}
+
+.dropdown .dropdown-list-toggle {
+	display: inline;
+}
+.navbar .sub-item ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+.navbar .sub-item ul a {
+	display: block;
+	padding: 0.5rem 1.5rem;
+	font-size: 13px;
+}
+.remove-caret:after {
+	display: none;
+}
+.navbar .nav-link:hover {
+	color: #15b5fe;
+}
+.navbar .nav-link.disabled {
+	color: #fff;
+	opacity: 0.6;
+}
+.nav-tabs .nav-item .nav-link {
+	color: #15b5fe;
+}
+.nav-tabs .nav-item .nav-link.active {
+	color: #15b5fe;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	color: #495057;
+	background-color: #fff;
+	border-color: #f0f0f2 #f0f0f2 #fff;
+}
+.tab-content > .tab-pane {
+	padding: 10px 0;
+	line-height: 24px;
+}
+.tab-bordered .tab-pane {
+	padding: 15px;
+	border: 1px solid #f0f0f2;
+	margin-top: -1px;
+}
+.nav-pills .nav-item .nav-link {
+	color: #15b5fe;
+	border-radius: 30px;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link,
+.nav-pills .nav-item .nav-link.active {
+	color: #fff;
+	background: #15b5fe;
+}
+.nav-pills .nav-item .nav-link .badge {
+	padding: 5px 8px;
+	margin-left: 5px;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+@media(max-width: 526px) {
+  .navbar-brand{
+    width: 100%;
+    height: auto;
+    margin-left: 2rem;
+  }
+  #horizontal-navtoggle{
+    margin-left: 0;
+  }
+  .header-brand{
+    flex: 1;
+    width: 100%;
+    height: auto;
+    margin-left: 0 !important;
+  }
+  .nav-link.pt-2.dropdown-toggle:after{
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+  .header-brand>.header-brand-img{
+    max-width: 140px;
+    width: 100%;
+    height: auto;
+    vertical-align: middle !important;
+    padding: 0;
+    padding-top: 0.6rem;
+    padding-right: 30px;
+  }
+
+  .sidebar-gone.active .animated-arrow{
+    padding-top: 1.29rem;
+  }
+}
+
+.navbar-nav .dropdown-menu .dropdownmsg i {
+  color: inherit;
+  float: inherit;
+  font-size: inherit;
+}
+.dropdownmsg .media {
+  margin: 0;
+}
+.media-body p.msg{
+  margin-bottom: 0;
+}

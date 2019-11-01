@@ -1,0 +1,238 @@
+div.stream-tools select.form-control.stream-dropdown{
+  height: 30px;
+  padding: 0 5px;
+}
+
+.Collapsible__contentInner {
+  margin-left: 20px;
+}
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid\9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.is-closed .caret {
+  border-top: 4px dashed;
+}
+.is-open .caret {
+  border-bottom: 4px dashed;
+}
+.weather-icon {
+  font-size: 103px !important;
+  color: #ffffff;
+}
+.fileUploader {
+  width: auto;
+  float: left;
+}
+.fileContainer {
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  width: auto;
+  margin-right: 20px;
+}
+.fileContainer {
+  display: inline-block;
+}
+.fileContainer .uploadIcon {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.fileContainer .deleteImage {
+  position: absolute;
+  top: -6px;
+  right: -9px;
+  color: #fff;
+  background: #ff4081;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 17px;
+  width: 15px;
+  height: 15px;
+}
+.uploadPicturesWrapper div {
+  justify-content: left!important;
+}
+.chooseFileButton::before {
+  content: "\f093 ";
+  font-family: "FontAwesome";
+}
+.hidden{
+  display: none;
+}
+.post-comments .Collapsible__contentOuter{
+  width: calc(100% + 90px);
+  left: -60px;
+  position: relative;
+}
+.media-body .nav-pills li a.active {
+  text-decoration: none;
+  color: #3454f5;
+}
+.media {
+  margin-bottom: 20px;
+}
+.h-msg-details-initials{
+  width: 44px;
+  text-align: center;
+  background: #ff7088 no-repeat center/cover;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 100%;
+  color: #fff;
+}
+.card-body .h-msg-link{
+  text-decoration: none;
+  color: #2f3245;
+}
+.card-body .h-msg-link:hover, .card-body .h-msg-link:focus, .card-body .h-msg-link:active {
+  text-decoration: none;
+}
+.h-msg-link{
+  color: #2f3245;
+  text-decoration: none;
+}
+.post-attachment img{
+  max-width: 100%;
+}
+.h-post-details-initials {
+  width: 50px;
+  text-align: center;
+  background: #ff7088 no-repeat center/cover;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 100%;
+  color: #fff;
+}
+.card.widgetb{
+  border-radius: 0px;
+  box-shadow: none!important;
+}
+
+i.color-info{
+  color: #01b8ff;
+}
+
+
+.DateRangePickerInput, .DateRangePicker{
+  white-space: nowrap;
+}
+
+@media(max-width: 526px) {
+  .stream-welcome{
+    font-size: 28px !important;
+  }
+}
+
+.errorsContainer {
+  max-width: 300px;
+  font-size: 12px;
+  color: red;
+  text-align: left;
+}
+
+.previewsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.uploadContainer {
+  padding: 10px;
+  background: #edf2f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d0dbe4;
+  position: relative;
+}
+
+.uploadContainer.imageFile {
+  margin: 4%;
+  width: 25%;
+}
+
+.uploadContainer.otherFile {
+  margin: 2%;
+  font-weight: 500;
+}
+
+.uploadPictureContainer {
+  width: 25%;
+}
+
+.uploadPictureContainer img.uploadPicture {
+  width: 100%;
+}
+
+.deleteImage {
+  position: absolute;
+  top: -7px;
+  right: -8px;
+  color: #fff;
+  background: #ff4081;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+.flipMove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.fileName {
+  line-height: 40px;
+  font-size: 20px;
+  top: -7px;
+  position: relative;
+  color: initial;
+}
+.fileIcon i {
+  font-size: 40px;
+}
+.color-red{
+  color: red;
+}
+.color-blue{
+  color: blue;
+}
+.color-green{
+  color: green;
+}
+.uploadContainer.imageFile img{
+  max-width: 100%!important;
+}
+@media (min-width: 1200px){
+  .container.content-area {
+    max-width: 90%;
+  }
+}
+@media (min-width: 992px){
+  .container.content-area {
+    max-width: 90%;
+  }
+}
+.card .card-header .btn.compose-btn{
+  width: 100px!important;
+}

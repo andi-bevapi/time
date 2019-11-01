@@ -1,0 +1,16 @@
+/* button.btn.btn-primary, button.btn.btn-primary:hover,
+button.btn.btn-primary:focus, button.btn.btn-primary:active{
+  background-color: #888888 !important;
+  border-color: #888888;
+}
+
+a > i {
+  color: #888888 !important;
+}
+a:hover {
+  background-color: #eaeaea !important;
+  color: #24273c !important;
+} */
+.react-confirm-alert-overlay{
+    z-index: 100000!important;
+}

@@ -1,0 +1,11 @@
+@media(max-width: 640px){
+    html,
+    body,
+    #root,
+    section.section-login,
+    section.section-login > div.container,
+    section.section-login > div.container > div.row{
+      height: 100%;
+    }
+  }
+  
